@@ -1,83 +1,68 @@
-
 /**
  *
  * In this file, we use the colors defined in _variables.scss to set out the system styling
  * By default, this is what will be applied to our pages and they can be overriden by developers
  */
 
- 
- /*=============================================
+/*=============================================
  =            Global text colors            =
  =============================================*/
- $body-text-color:var(--isw-body-text-color, $dark) !default;
- $body-bg-color:var(--isw-body-bg-color, $white) !default;
- 
- 
- /*=====  End of Global text colors  ======*/
+$body-text-color: var(--isw-body-text-color, $dark) !default;
+$body-bg-color: var(--isw-body-bg-color, $white) !default;
 
- 
- /*=============================================
+/*=====  End of Global text colors  ======*/
+
+/*=============================================
  =            Buttons            =
  =============================================*/
- 
- $btn-primary-color:var(--isw-btn-primary-color, $white) !default;
- $btn-primary-bgcolor:var(--isw-btn-primary-bgcolor, $green) !default;
- $btn-primary-bghover:var(--isw-btn-primary-bghover, $light-green) !default;
- 
- /*=====  End of Buttons  ======*/
 
- 
- /*=============================================
+$btn-primary-color: var(--isw-btn-primary-color, $white) !default;
+$btn-primary-bgcolor: var(--isw-btn-primary-bgcolor, $green) !default;
+$btn-primary-bghover: var(--isw-btn-primary-bghover, $light-green) !default;
+
+/*=====  End of Buttons  ======*/
+
+/*=============================================
  =            Forms            =
  =============================================*/
- 
- $form-input-color: var(--isw-form-text-color, $dark) !default;
- $form-input-bgcolor: var(--form-input-bgcolor, $white) !default;
- $form-error-color: var(--isw-form-error-color, $red) !default;
- $form-error-border: var(--isw-form-error-border, $light-red) !default;
- $form-border-focus-color: var(--isw-form-border-focus-color, $green) !default;
- 
- /*=====  End of Forms  ======*/
 
- 
- /*=============================================
+$form-input-color: var(--isw-form-text-color, $dark) !default;
+$form-input-bgcolor: var(--form-input-bgcolor, $white) !default;
+$form-error-color: var(--isw-form-error-color, $red) !default;
+$form-error-border: var(--isw-form-error-border, $light-red) !default;
+$form-border-focus-color: var(--isw-form-border-focus-color, $green) !default;
+
+/*=====  End of Forms  ======*/
+
+/*=============================================
  =            App Bar            =
  =============================================*/
- 
- $appbar-primary-color:var(-isw-appbar-color, $dark) !default;
- $appbar-primary-bgcolor:var(-isw-appbar-bgcolor, $white) !default;
 
- $appbar-secondary-color:var(-isw-appbar-color, $white) !default;
- $appbar-secondary-bgcolor:var(-isw-appbar-bgcolor, $blue) !default;
+$appbar-primary-color: var(-isw-appbar-color, $dark) !default;
+$appbar-primary-bgcolor: var(-isw-appbar-bgcolor, $white) !default;
 
- $appbar-elevated-color:var(-isw-appbar-color, $dark) !default;
- $appbar-elevated-bgcolor:var(-isw-appbar-bgcolor, $white) !default;
- $appbar-elevated-shadowcolor:var(-isw-appbar-bgcolor, $dark-light) !default;
- 
- /*=====  End of App Bar   ======*/
+$appbar-secondary-color: var(-isw-appbar-color, $white) !default;
+$appbar-secondary-bgcolor: var(-isw-appbar-bgcolor, $blue) !default;
 
- 
- /*=============================================
+$appbar-elevated-color: var(-isw-appbar-color, $dark) !default;
+$appbar-elevated-bgcolor: var(-isw-appbar-bgcolor, $white) !default;
+$appbar-elevated-shadowcolor: var(-isw-appbar-bgcolor, $dark-light) !default;
+
+/*=====  End of App Bar   ======*/
+
+/*=============================================
  =            Floating Action Button            =
  =============================================*/
- 
- $fab-primary-color:var(--isw-fab-primary-color,$white) !default;
- $fab-primary-bgcolor:var(--isw-fab-primary-bgcolor,$blue) !default;
- $fab-primary-hover-bg:var(--isw-fab-primary-hover-bg,$light-blue) !default;
 
- $fab-secondary-color:var(--isw-fab-secondary-color,$white) !default;
- $fab-secondary-bgcolor:var(--isw-fab-secondary-bgcolor,$green) !default;
- $fab-secondary-hover-bg:var(--isw-fab-secondary-hover-bg,$light-green) !default;
- 
- /*=====  End of Floating Action Button  ======*/
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
+$fab-primary-color: var(--isw-fab-primary-color, $white) !default;
+$fab-primary-bgcolor: var(--isw-fab-primary-bgcolor, $blue) !default;
+$fab-primary-hover-bg: var(--isw-fab-primary-hover-bg, $light-blue) !default;
 
+$fab-secondary-color: var(--isw-fab-secondary-color, $white) !default;
+$fab-secondary-bgcolor: var(--isw-fab-secondary-bgcolor, $green) !default;
+$fab-secondary-hover-bg: var(
+  --isw-fab-secondary-hover-bg,
+  $light-green
+) !default;
+
+/*=====  End of Floating Action Button  ======*/

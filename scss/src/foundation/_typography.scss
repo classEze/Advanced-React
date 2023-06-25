@@ -1,38 +1,33 @@
-
 /*=============================================
 =            Body fonts            =
 =============================================*/
 
-$body-font-size:var(--isw-body-font-size, $fs-base)!default;
-$body-font-weight:var(--isw-body-font-weight, $fw-normal)!default;
+$body-font-size: var(--isw-body-font-size, $fs-base) !default;
+$body-font-weight: var(--isw-body-font-weight, $fw-normal) !default;
 
 /*=====  End of Body fonts  ======*/
-
 
 /*=============================================
 =            Header fonts            =
 =============================================*/
 
-$h1-font-size:var(--isw-h1-font-size, $h-1)!default;
-$h2-font-size:var(--isw-h2-font-size, $h-2)!default;
-$h3-font-size:var(--isw-h3-font-size, $h-3)!default;
-$h4-font-size:var(--isw-h4-font-size, $h-4)!default;
-$h5-font-size:var(--isw-h5-font-size, $h-5)!default;
-$h6-font-size:var(--isw-h6-font-size, $h-6)!default;
+$h1-font-size: var(--isw-h1-font-size, $h-1) !default;
+$h2-font-size: var(--isw-h2-font-size, $h-2) !default;
+$h3-font-size: var(--isw-h3-font-size, $h-3) !default;
+$h4-font-size: var(--isw-h4-font-size, $h-4) !default;
+$h5-font-size: var(--isw-h5-font-size, $h-5) !default;
+$h6-font-size: var(--isw-h6-font-size, $h-6) !default;
 
 /*=====  End of Header font weights  ======*/
 /*=============================================
 =            Header fonts            =
 =============================================*/
 
-$h1-font-weight:var(--isw-h1-font-weight, $fw-black)!default;
-$h2-font-weight:var(--isw-h2-font-weight, $fw-semibold)!default;
-$h3-font-weight:var(--isw-h3-font-weight, $fw-bold)!default;
-$h4-font-weight:var(--isw-h4-font-weight, $fw-medium)!default;
-$h5-font-weight:var(--isw-h5-font-weight, $fw-normal)!default;
-$h6-font-weight:var(--isw-h6-font-weight, $fw-light)!default;
+$h1-font-weight: var(--isw-h1-font-weight, $fw-black) !default;
+$h2-font-weight: var(--isw-h2-font-weight, $fw-semibold) !default;
+$h3-font-weight: var(--isw-h3-font-weight, $fw-bold) !default;
+$h4-font-weight: var(--isw-h4-font-weight, $fw-medium) !default;
+$h5-font-weight: var(--isw-h5-font-weight, $fw-normal) !default;
+$h6-font-weight: var(--isw-h6-font-weight, $fw-light) !default;
 
 /*=====  End of Header fonts= weights  ======*/
-
-
-

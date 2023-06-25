@@ -1,42 +1,35 @@
-
 /*=============================================
 =            Colors            =
 =============================================*/
 
-
 /* Brand Colors */
-$green:#5ece7b;
-$light-green:#9ee2b0;
+$green: #5ece7b;
+$light-green: #9ee2b0;
 
-$dark:#1d1f22;
-$dark-light:#737680;
-
+$dark: #1d1f22;
+$dark-light: #737680;
 
 /* Neutral Colors */
 
-$gray:#a3a5ad;
-$light-gray:#bebfc4;
+$gray: #a3a5ad;
+$light-gray: #bebfc4;
 
-$white:#fff;
-$dark-white:#f1f2f3;
-
+$white: #fff;
+$dark-white: #f1f2f3;
 
 /* Utility Colors */
 
-$red:#d12727;
-$light-red:#f8dedf;
+$red: #d12727;
+$light-red: #f8dedf;
 
-$blue:#0468db;
-$light-blue:#b4d2f4;
-
+$blue: #0468db;
+$light-blue: #b4d2f4;
 
 /*=====  End of Colors  ======*/
-
 
 /*=============================================
 =            Typography            =
 =============================================*/
-
 
 /**
  *
@@ -51,93 +44,89 @@ $light-blue:#b4d2f4;
  * link to google raleway fonts
  *
  */
- 
- 
+
 /* font families */
 
-$playfair:"playfair",serif; /* 1 */ /* The 1 and 2 you see is a way to give descriptive comments for what they stand for and maybe links. eg  */
-$raleway:"Raleway","HelveticaNeue","Helvetica","Arial",sans-serif; /* 2 */
-
+$playfair: "playfair", serif; /* 1 */ /* The 1 and 2 you see is a way to give descriptive comments for what they stand for and maybe links. eg  */
+$raleway: "Raleway", "HelveticaNeue", "Helvetica", "Arial", sans-serif; /* 2 */
 
 /* font sizes */
 
-$fs-xs:0.75rem; // 12px
-$fs-sm:0.875rem; // 14px
-$fs-base:1rem; // 16px
-$fs-lg:1.125rem; // 18px
-$fs-xl:1.5rem; // 24px
-
+$fs-xs: 0.75rem; // 12px
+$fs-sm: 0.875rem; // 14px
+$fs-base: 1rem; // 16px
+$fs-lg: 1.125rem; // 18px
+$fs-xl: 1.5rem; // 24px
 
 /* Heading font sizes */
 
-$h-1 : 1.375rem; //22px
-$h-2 : 1.375rem; //22px
-$h-3 : 1rem; //16px
-$h-4 : 1.125rem; //18px
-$h-5 : 0.75rem; //12px
-$h-6 : 0.75rem; //12px
-
-
+$h-1: 1.375rem; //22px
+$h-2: 1.375rem; //22px
+$h-3: 1rem; //16px
+$h-4: 1.125rem; //18px
+$h-5: 0.75rem; //12px
+$h-6: 0.75rem; //12px
 
 /* font weights */
-$fw-light:300;
-$fw-normal:400;
-$fw-medium:500;
-$fw-semibold:600;
-$fw-bold:700;
-$fw-extrabold:800;
-$fw-black:900;
-
+$fw-light: 300;
+$fw-normal: 400;
+$fw-medium: 500;
+$fw-semibold: 600;
+$fw-bold: 700;
+$fw-extrabold: 800;
+$fw-black: 900;
 
 /*=====  End of font weights  ======*/
 
 /* line heights */
-$lh-small:1; 
-$lh-normal:normal;
-$lh-large:1.5;
+$lh-small: 1;
+$lh-normal: normal;
+$lh-large: 1.5;
 /*=====  End of line heights  ======*/
 
 /* letter spacing */
-$ls-normal:normal;
-$ls-wide:0.5rem; // 8px
-$ls-wider:1 rem; // 16px
-$ls-widest:1.5rem; //24px
+$ls-normal: normal;
+$ls-wide: 0.5rem; // 8px
+$ls-wider: 1 rem; // 16px
+$ls-widest: 1.5rem; //24px
 /*=====  End of line heights  ======*/
-
-
-
 
 /*=============================================
 =            Breakpoints            =
 =============================================*/
 
-$breakpoints:(
-    sm: 37.5rem,// 600px
-    md:48rem, //768px
-    lg:64rem, //1024px
-    xl:80rem  //1280px
+$breakpoints: (
+  sm: 37.5rem,
+  // 600px
+  md: 48rem,
+  //768px
+  lg: 64rem,
+  //1024px
+  xl: 80rem //1280px,,,
 );
-
 
 /*=============================================
 =            Spacing            =
 =============================================*/
 
-$spacing : (
-    xxxs:0.25rem, //4px
-    xxs:0.5rem, //8px
-    xs:0.75rem, //12px
-    sm:1rem, //16px
-    md:1.5rem, //24px
-    lg:2rem, //32px
-    xl:3rem, //48px
-    xxl:4.55rem, //72px
-    xxxl:6rem //96px
+$spacing: (
+  xxxs: 0.25rem,
+  //4px
+  xxs: 0.5rem,
+  //8px
+  xs: 0.75rem,
+  //12px
+  sm: 1rem,
+  //16px
+  md: 1.5rem,
+  //24px
+  lg: 2rem,
+  //32px
+  xl: 3rem,
+  //48px
+  xxl: 4.55rem,
+  //72px
+  xxxl: 6rem //96px,,,
 )
 
 /*=====  End of Spacing  ======*/
-
-
-
-
-

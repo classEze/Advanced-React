@@ -1,50 +1,49 @@
 @mixin desktop {
-    @media(min-width:map-get($breakpoints, "xl")){
-        @content
-    }
-
+  @media (min-width: map-get($breakpoints, "xl")) {
+    @content;
+  }
 }
 @mixin latop {
-    @media(min-width:map-get($breakpoints, "lg")){
-        @content
-    }
-
+  @media (min-width: map-get($breakpoints, "lg")) {
+    @content;
+  }
 }
 @mixin tablet {
-    @media(min-width:map-get($breakpoints, "md")){
-        @content
-    }
-
+  @media (min-width: map-get($breakpoints, "md")) {
+    @content;
+  }
 }
 @mixin mobile {
-    @media(max-width:map-get($breakpoints, "sm")){
-        @content
-    }
-
+  @media (max-width: map-get($breakpoints, "sm")) {
+    @content;
+  }
 }
-
 
 @mixin margin-top($value) {
-margin-top:map-get($map: spacing, $key: $value)
+  margin-top: map-get($spacing, $value);
 }
 @mixin margin-bottom($value) {
-    margin-bottom:map-get($map: spacing, $key: $value)
-    }
+  margin-bottom: map-get($spacing, $value);
+}
 @mixin margin-left($value) {
-    margin-left:map-get($map: spacing, $key: $value)
-    }
+  margin-left: map-get($spacing, $value);
+}
 @mixin margin-right($value) {
-    margin-right:map-get($map: spacing, $key: $value)
-    }
+  margin-right: map-get($spacing, $value);
+}
 @mixin padding-bottom($value) {
-    padding-bottom:map-get($map: spacing, $key: $value)
-    }
+  padding-bottom: map-get($spacing, $value);
+}
 @mixin padding-top($value) {
-    padding-top:map-get($map: spacing, $key: $value)
-    }
+  padding-top: map-get($spacing, $value);
+}
 @mixin padding-left($value) {
-    padding-left:map-get($map: spacing, $key: $value)
-    }
+  padding-left: map-get($spacing, $value);
+}
 @mixin padding-right($value) {
-    padding-right:map-get($map: spacing, $key: $value)
-    }
+  padding-right: map-get($spacing, $value);
+}
+
+.see{
+
+}

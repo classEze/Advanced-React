@@ -3,11 +3,22 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
-  "scripts":{
-    "lint":"stylelint **/**/*.scss",
-    "lint:fix":"stylelint '**/**/*.scss' --fix"
+  "scripts": {
+    "lint": "stylelint **/**/*.scss",
+    "lint:fix": "stylelint **/**/*.scss --fix"
   },
+  "husky":{
+    "hooks":{
+      "pre-commit":"lint-staged"
+    }
+  },
+  "lint-staged":{
+    "*.scss":"yarn lint:fix"
+  },
+
   "dependencies": {
+    "husky": "^8.0.3",
+    "lint-staged": "^13.2.2",
     "normalize-scss": "^7.0.1",
     "prettier": "^2.8.8",
     "stylelint": "^15.9.0",
