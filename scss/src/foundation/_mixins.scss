@@ -1,0 +1,50 @@
+@mixin desktop {
+    @media(min-width:map-get($breakpoints, "xl")){
+        @content
+    }
+
+}
+@mixin latop {
+    @media(min-width:map-get($breakpoints, "lg")){
+        @content
+    }
+
+}
+@mixin tablet {
+    @media(min-width:map-get($breakpoints, "md")){
+        @content
+    }
+
+}
+@mixin mobile {
+    @media(max-width:map-get($breakpoints, "sm")){
+        @content
+    }
+
+}
+
+
+@mixin margin-top($value) {
+margin-top:map-get($map: spacing, $key: $value)
+}
+@mixin margin-bottom($value) {
+    margin-bottom:map-get($map: spacing, $key: $value)
+    }
+@mixin margin-left($value) {
+    margin-left:map-get($map: spacing, $key: $value)
+    }
+@mixin margin-right($value) {
+    margin-right:map-get($map: spacing, $key: $value)
+    }
+@mixin padding-bottom($value) {
+    padding-bottom:map-get($map: spacing, $key: $value)
+    }
+@mixin padding-top($value) {
+    padding-top:map-get($map: spacing, $key: $value)
+    }
+@mixin padding-left($value) {
+    padding-left:map-get($map: spacing, $key: $value)
+    }
+@mixin padding-right($value) {
+    padding-right:map-get($map: spacing, $key: $value)
+    }

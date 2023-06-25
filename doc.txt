@@ -1,0 +1,27 @@
+Features of a design system
+Color
+Typography
+Icon set
+Components
+
+Design systems
+Carbon - IBM
+Fluent UI - Microsoft
+Material Design - Google
+
+AS an engineer, you responsibility is to translate the design system into reusable code that can be used for future designs
+Understand the system, extracting reusable components out of the system and creating reusable code for this
+
+CSS Architecture Checklist
+Easy to understand code - (comments,variables)
+Organised - fixed code structure
+No Css specificity issues or conflicts between css from different components
+Fully customizable/themeable
+Atomic design principles
+Css is reusable accross teams
+
+line height with no units is whatever value times the font size and seems to be the most reliable way of setting line height
+stylelint and prettier packages were installed to take care of the linting and formatting the sass files
+checkout the rules for stylelint-config-sass-guideline on their page
+
+git config --global alias.addcom "!git add -A && git commit -m" - How to add aliases that you can constantly use to quicken your workflow
