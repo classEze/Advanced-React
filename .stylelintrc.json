@@ -1,0 +1,5 @@
+{
+    "plugin":["stylelint-prettier"],
+    "extends":["stylelint-config-prettier","stylelint-config-sass-guidelines","stylelint-prettier/recommended"]
+    
+}
